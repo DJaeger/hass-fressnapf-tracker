@@ -22,3 +22,5 @@ CONF_PASSWORD = "password"  # nosec
 CONF_SERIALNUMBER = "serialnumber"
 CONF_DEVICE_TOKEN = "device_token"
 CONF_AUTH_TOKEN = "auth_token"
+CONF_PHONENUMBER = "phonenumber"
+CONF_SMSTOKEN = "smstoken"

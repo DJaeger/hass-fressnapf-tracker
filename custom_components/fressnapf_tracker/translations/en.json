@@ -1,13 +1,22 @@
 {
     "config": {
         "step": {
-            "user": {
-                "description": "If you need help with the configuration have a look here: https://github.com/eifinger/hass-fressnapf-tracker",
+            "request_sms_code": {
+                "description": "mobilenumber used to register Tracker",
                 "data": {
-                    "serialnumber": "Serial number of the tracker",
-                    "device_token": "Device Token for this instance",
-                    "auth_token": "Auth Token. Not the QR Code!"
+                    "phonenumber": "number (e.g. +4915712345678)"
                 }
+            },
+            "verify_phone_number": {
+                "description": "6 digit code sent by sms",
+                "data": {
+                    "smstoken": "Code"
+                }
+            },
+            "get_devices": {
+                "description": "select serial number of which should be added",
+                "data": {
+                 }
             },
             "reconfigure": {
                 "description": "If you need help with the configuration have a look here: https://github.com/eifinger/hass-fressnapf-tracker",
@@ -18,13 +27,12 @@
             }
         },
         "error": {
-            "invalid_device_token": "The Device Token is wrong.",
-            "invalid_auth_token": "The Auth Token is wrong.",
-            "invalid_serial_number": "The Serial Number does not exist."
+            "already_configured": "tracker already configured",
+            "invalid_token": "wrong code"
         },
         "abort": {
-            "already_configured": "This account is already configured.",
-            "reconfigure_successful": "Re-configuration was successful"
+            "already_configured": "tracker already configured",
+            "reconfigure_successful": "Re-configuration succesfull"
         }
     }
 }

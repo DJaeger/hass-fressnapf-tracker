@@ -1,13 +1,22 @@
 {
     "config": {
         "step": {
-            "user": {
-                "description": "Wenn du Hilfe benötigst findest du sie vielleicht hier: https://github.com/eifinger/hass-fressnapf_tracker",
+            "request_sms_code": {
+                "description": "Handynummer unter welcher der Tracker eingerichtet wurde.",
                 "data": {
-                    "serialnumber": "Seriennummer des Trackers",
-                    "device_token": "Device Token für diese Instanz",
-                    "auth_token": "Auth Token. Nicht der QR Code!"
+                    "phonenumber": "Handynummer (z.B. +4915712345678)"
                 }
+            },
+            "verify_phone_number": {
+                "description": "6 stelliger Sicherheitscode welcher per SMS gesendet wurde.",
+                "data": {
+                    "smstoken": "Sicherheitscode"
+                }
+            },
+            "get_devices": {
+                "description": "Seriennummer des Trackers auswählen, welcher hinzugefügt werden soll.",
+                "data": {
+                 }
             },
             "reconfigure": {
                 "description": "Wenn du Hilfe benötigst findest du sie vielleicht hier: https://github.com/eifinger/hass-fressnapf_tracker",
@@ -18,9 +27,8 @@
             }
         },
         "error": {
-            "invalid_device_token": "Das Device Token ist falsch.",
-            "invalid_auth_token": "Das Auth Token ist falsch.",
-            "invalid_serial_number": "Die Seriennummer existiert nicht."
+            "already_configured": "Dieser Tracker ist bereits konfiguriert.",
+            "invalid_token": "Sicherheitscode ist falsch."
         },
         "abort": {
             "already_configured": "Dieser Account ist bereits konfiguriert.",
