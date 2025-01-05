@@ -67,8 +67,7 @@ class FressnapfTrackerFlow(ConfigFlow, domain=DOMAIN):
                     self._cloud_auth_token
                 )
                 self._userid = response["id"]
-            except InvalidCredentials:  ## TODO old code, need to be evaluated
-                self._errors["base"] = "invalid_credentials"
+            except:
                 return await self._show_config_form_request_sms_code(user_input)
 
             return await self.async_step_verify_phone_number()
