@@ -2,13 +2,13 @@
   "domain": "fressnapf_tracker",
   "name": "Fressnapf Tracker",
   "codeowners": [
-    "@eifinger"
+    "@k0ssi"
   ],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/eifinger/hass-fressnapf-tracker",
+  "documentation": "https://github.com/k0ssi/hass-fressnapf-tracker",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/eifinger/hass-fressnapf-tracker/issues",
+  "issue_tracker": "https://github.com/k0ssi/hass-fressnapf-tracker/issues",
   "requirements": [
     "httpx",
     "phonenumbers"

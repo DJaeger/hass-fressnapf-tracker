@@ -1,21 +1,12 @@
 # fressnapf_tracker
 
-[![GitHub Release][releases-shield]][releases]
-[![GitHub Activity][commits-shield]][commits]
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
 [![License][license-shield]](LICENSE.md)
 
-![Project Maintenance][maintenance-shield]
-[![BuyMeCoffee][buymecoffeebadge]][buymecoffee]
 
 > [!IMPORTANT]
 > This component is a private development and not connected to Fressnapf in any way.
 
 _Homeassistant Custom Component for [Fressnapf Tracker](https://tracker.fressnapf.de/)._
-
-> [!WARNING]
-> You need to use reverse engineering to find out the device token and auth token needed for this integration.
-> There is no support offered for this. Have a look at the [issues][issues] for more information.
 
 ![example][exampleimg]
 
@@ -37,16 +28,7 @@ The easiest way to add this to your Homeassistant installation is using [HACS](h
 
 ---
 
-[<img src="https://raw.githubusercontent.com/eifinger/hass-fressnapf-tracker/main/docs/images/bmc-button.svg" width=150 height=40 style="margin: 5px"/>](https://www.buymeacoffee.com/eifinger)
-[<img src="https://raw.githubusercontent.com/eifinger/hass-fressnapf-tracker/main/docs/images/paypal-button.svg" width=150 height=40 style="margin: 5px"/>](https://paypal.me/kevinstillhammer)
 
-[buymecoffee]: https://www.buymeacoffee.com/eifinger
-[buymecoffeebadge]: https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg?style=for-the-badge
-[commits-shield]: https://img.shields.io/github/commit-activity/y/eifinger/hass-fressnapf-tracker?style=for-the-badge
-[commits]: https://github.com/eifinger/hass-fressnapf-tracker/commits/main
+
 [exampleimg]: https://github.com/eifinger/hass-fressnapf-tracker/blob/main/docs/images/example.png?raw=true
 [license-shield]: https://img.shields.io/github/license/eifinger/hass-fressnapf-tracker.svg?style=for-the-badge
-[maintenance-shield]: https://img.shields.io/badge/maintainer-Kevin%20Stillhammer%20%40eifinger-blue.svg?style=for-the-badge
-[releases-shield]: https://img.shields.io/github/release/eifinger/hass-fressnapf-tracker.svg?style=for-the-badge
-[releases]: https://github.com/eifinger/hass-fressnapf-tracker/releases
-[issues]: https://github.com/eifinger/hass-fressnapf-tracker/issues
