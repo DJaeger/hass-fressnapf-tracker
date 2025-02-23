@@ -1,13 +1,14 @@
 [project]
 name = "hass-fressnapf-tracker"
-version = "1.3.1"
+version = "1.4.0"
 description = "Homeassistant Custom Component for fressnapf_tracker"
 license = "MIT"
 readme = "README.md"
 authors = [
-    { name = "Kevin Stillhammer", email = "kevin.stillhammer@gmail.com" }
+    { name = "Kevin Stillhammer", email = "kevin.stillhammer@gmail.com" },
+    { name = "Steven Kosyra", email = "steven.kosyra@gmail.com" }
 ]
-repository = "http://github.com/eifinger/hass-fressnapf_tracker"
+repository = "https://github.com/k0ssi/hass-fressnapf-tracker"
 keywords = [
     "aiohttp",
     "asyncio",
@@ -24,6 +25,7 @@ classifiers = [
 requires-python = ">=3.12"
 dependencies = [
     "httpx>=0.27.0",
+    "phonenumbers>=8.13.52",
 ]
 
 [build-system]

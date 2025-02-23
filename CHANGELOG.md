@@ -2,6 +2,12 @@
 
 <!--next-version-placeholder-->
 
+## v1.4.0 (2025-02-23)
+
+### Feature
+
+* Home Assistant config flow added 
+
 ## v1.3.1 (2024-08-25)
 
 ### Fix
