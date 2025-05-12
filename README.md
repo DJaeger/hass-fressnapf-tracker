@@ -14,7 +14,9 @@ _Homeassistant Custom Component for [Fressnapf Tracker](https://tracker.fressnap
 
 ### HACS
 
-The easiest way to add this to your Homeassistant installation is using [HACS](https://hacs.xyz/).
+The easiest way to add this to your Homeassistant installation is using [HACS](https://hacs.xyz/):
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?repository=hass-fressnapf-tracker&owner=k0ssi&category=integration)
 
 ### Manual
 
@@ -24,7 +26,14 @@ The easiest way to add this to your Homeassistant installation is using [HACS](h
 4. Download _all_ the files from the `custom_components/fressnapf_tracker/` directory (folder) in this repository.
 5. Place the files you downloaded in the new directory (folder) you created.
 6. Restart Home Assistant
-7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Fressnapf Tracker"
+
+## Configuration
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=fressnapf_tracker)
+
+### Manual
+In the HA UI go to `Configuration` -> `Integrations` click `+` and search for `Fressnapf Tracker`
+
 
 ---
 
